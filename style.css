@@ -1147,6 +1147,17 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 
 
 /*-------------------------------------------*
+/* Webforms
+/*-------------------------------------------*/
+
+/* Set default to block, to undo the default=inline */
+.webform-container-inline label {
+  display:block;
+}
+
+
+
+/*-------------------------------------------*
 /* CiviCRM
 /*-------------------------------------------*/
 
