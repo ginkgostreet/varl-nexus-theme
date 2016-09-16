@@ -203,6 +203,12 @@ td{
   width:200px;
 }
 
+#site-logo2 img {
+  width:128px;
+  margin-bottom:-8px;
+}
+
+
 /* Typography
 ================================================== */
 
@@ -283,6 +289,10 @@ a:focus {
   float: left;
   padding: 15px 15px 0 0;
 }
+#site-logo2 {
+  float: right;
+  padding: 15px 0 0 15px;
+}
 h1#site-title{
   text-transform: uppercase;
   font-weight: 800;
@@ -316,7 +326,7 @@ h1#site-title a:link, h1#site-title a:visited{
   margin: 22px 0px 15px;
   height:45px;
   border-bottom: none;
-  float: left;
+  float: right;
 }
   
 #main-menu ul {
@@ -1136,6 +1146,16 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 }
 
 
+/*-------------------------------------------*
+/* CiviCRM
+/*-------------------------------------------*/
+
+div.crm-container fieldset label {
+  white-space: normal;
+  line-height: 1.2em;
+}
+
+
 @media screen and (max-width: 768px) {
   html{
     font-size: 60%;
@@ -1147,6 +1167,9 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 
   #site-logo {
     padding-top: 0;
+  }
+  #site-logo2 {
+    display:none;
   }
   
   select.mnav{

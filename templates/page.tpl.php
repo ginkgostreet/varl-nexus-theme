@@ -67,7 +67,7 @@
 <div id="page">
   <header id="masthead" class="site-header container" role="banner">
     <div class="row">
-      <div id="logo" class="site-branding col-sm-6">
+      <div id="logo" class="site-branding col-sm-3">
         <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a></div><?php endif; ?>
@@ -90,6 +90,13 @@
           </div>
         </nav>
       </div>
+
+      <div id="logo" class="site-branding col-sm-3">
+        <div id="site-logo2"><a href="http://leadercenter.org">
+          <img src="/sites/all/themes/nexus/lce_logo.png" alt="Leader Center" />
+        </a></div>
+      </div>
+
     </div>
   </header>
 
