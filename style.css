@@ -201,11 +201,12 @@ td{
 
 #site-logo img {
   width:200px;
+  max-width:200%;
 }
 
 #site-logo2 img {
-  width:128px;
-  margin-bottom:-8px;
+  width:150px;
+  margin-bottom:-18px;
 }
 
 
