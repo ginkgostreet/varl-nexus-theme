@@ -1,0 +1,4 @@
+/* The following sets label display back to inline, since bootstrap sets them to inline. This is essential for webforms.css */
+label {
+	display: block;
+}

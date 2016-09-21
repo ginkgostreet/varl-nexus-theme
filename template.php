@@ -115,3 +115,18 @@ if (drupal_is_front_page()) {
   drupal_add_js(drupal_get_path('theme', 'nexus') . '/js/jquery.flexslider.js');
   drupal_add_js(drupal_get_path('theme', 'nexus') . '/js/slide.js');
 }
+
+
+/**
+ * Add some css to the SYSTEM group, so that they are loaded before plugins.
+ */
+function nexus_preprocess_html(&$vars) {
+    drupal_add_css(path_to_theme().'/css/bootstrap.min.css', array(
+      'group' => CSS_SYSTEM, 
+      'preprocess' => FALSE
+    ));
+    drupal_add_css(path_to_theme().'/css/set_labels_to_display_block_by_default.css', array(
+      'group' => CSS_SYSTEM,
+      'preprocess' => FALSE
+    ));
+}
