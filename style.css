@@ -205,8 +205,7 @@ td{
 }
 
 #site-logo2 img {
-  width:150px;
-  margin-bottom:-18px;
+  width:190px;
 }
 
 
@@ -283,16 +282,13 @@ a:focus {
 #masthead{
   position: relative;
 }
-.site-branding{
-  margin-bottom: 20px;
-}
 #site-logo {
   float: left;
-  padding: 15px 15px 0 0;
+  padding: 20px 15px 20px 0;
 }
 #site-logo2 {
   float: right;
-  padding: 15px 0 0 15px;
+  padding: 6px 0 0 15px;
 }
 h1#site-title{
   text-transform: uppercase;
