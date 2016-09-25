@@ -1178,6 +1178,18 @@ div.view-partner-directory td.views-field-current-employer {
 div.view-partner-directory td.views-field-image-URL { 
   width: 20%
 }
+/* No borders inside rows */
+#primary div.view-partner-directory tbody td {
+  border-top: 0px;
+  border-right: 0px;
+}
+#primary div.view-partner-directory table {
+  border-right: 1px solid #ddd;
+}
+/* Alternate row background white */
+#primary div.view-partner-directory tbody tr.odd {
+  background-color: white;
+}
 
 
 @media screen and (max-width: 768px) {
