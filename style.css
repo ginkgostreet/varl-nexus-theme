@@ -1161,6 +1161,11 @@ div.crm-container fieldset label {
   left: auto;
 }
 
+/* Hide "advanced" create project settings */
+/* VARL-96 */
+#crm_volunteer_angular_frame form.crm-form-block fieldset.crm-vol-profiles {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
   html{
