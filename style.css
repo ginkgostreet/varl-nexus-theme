@@ -215,6 +215,7 @@ td{
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
+  color: #005FA1; /* VARL-81 */
   clear: both;
 }
 
@@ -556,7 +557,7 @@ a.frmore{
 ----------------------------------------------- */
 
 .node h2.title a, h1.page-title {
-  color: #000000;
+  color: #005FA1; /* VARL-81 */
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
