@@ -1150,9 +1150,12 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 /* CiviCRM
 /*-------------------------------------------*/
 
-div.crm-container fieldset label {
+div.crm-container fieldset label,
+form.crm-form-block div.label
+ {
   white-space: normal;
   line-height: 1.2em;
+  background-color: #005FA1;
 }
 
 /* Fix bootstrap and jquery-ui conflict breaking the define volunteer needs form */
