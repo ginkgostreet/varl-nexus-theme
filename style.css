@@ -1172,6 +1172,7 @@ form.crm-form-block div.label
 }
 
 /* Partner Directory Styling */
+/* Column widths */
 div.view-partner-directory td.views-field-current-employer { 
   width: 50%; 
 }
