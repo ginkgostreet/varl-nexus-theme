@@ -1171,6 +1171,15 @@ form.crm-form-block div.label
   display: none;
 }
 
+/* Partner Directory Styling */
+div.view-partner-directory td.views-field-current-employer { 
+  width: 50%; 
+}
+div.view-partner-directory td.views-field-image-URL { 
+  width: 20%
+}
+
+
 @media screen and (max-width: 768px) {
   html{
     font-size: 60%;
