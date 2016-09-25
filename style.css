@@ -1155,6 +1155,12 @@ div.crm-container fieldset label {
   line-height: 1.2em;
 }
 
+/* Fix bootstrap and jquery-ui conflict breaking the define volunteer needs form */
+/* VARL-92 */
+#crm-volunteer-dialog.ui-dialog-content {
+  left: auto;
+}
+
 
 @media screen and (max-width: 768px) {
   html{
