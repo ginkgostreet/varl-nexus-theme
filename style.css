@@ -1152,11 +1152,17 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 /*-------------------------------------------*/
 
 div.crm-container fieldset label,
+#crm-container.crm-public .label,
 form.crm-form-block div.label
  {
   white-space: normal;
   line-height: 1.2em;
   background-color: #005FA1;
+}
+
+/* fix spacing causing labels to mis-align */
+#crm-container.crm-public .crm-section {
+  margin-bottom: 0.75em;
 }
 
 /* Fix bootstrap and jquery-ui conflict breaking the define volunteer needs form */
