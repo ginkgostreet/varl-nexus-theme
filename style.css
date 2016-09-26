@@ -1158,6 +1158,7 @@ form.crm-form-block div.label
   white-space: normal;
   line-height: 1.2em;
   background-color: #005FA1;
+  width: auto;
 }
 
 /* fix spacing causing labels to mis-align */
