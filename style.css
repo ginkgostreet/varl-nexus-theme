@@ -215,7 +215,7 @@ td{
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
-  color: #005FA1; /* VARL-81 */
+  color: #0079c1; /* VARL-81 */
   clear: both;
 }
 
@@ -557,7 +557,7 @@ a.frmore{
 ----------------------------------------------- */
 
 .node h2.title a, h1.page-title {
-  color: #005FA1; /* VARL-81 */
+  color: #0079c1; /* VARL-81 */
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -1170,6 +1170,28 @@ form.crm-form-block div.label
 #crm_volunteer_angular_frame form.crm-form-block fieldset.crm-vol-profiles {
   display: none;
 }
+
+/* Partner Directory Styling */
+/* Column widths */
+div.view-partner-directory td.views-field-current-employer { 
+  width: 50%; 
+}
+div.view-partner-directory td.views-field-image-URL { 
+  width: 20%
+}
+/* No borders inside rows */
+#primary div.view-partner-directory tbody td {
+  border-top: 0px;
+  border-right: 0px;
+}
+#primary div.view-partner-directory table {
+  border-right: 1px solid #ddd;
+}
+/* Alternate row background white */
+#primary div.view-partner-directory tbody tr.odd {
+  background-color: white;
+}
+
 
 @media screen and (max-width: 768px) {
   html{
