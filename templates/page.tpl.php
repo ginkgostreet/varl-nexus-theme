@@ -71,6 +71,9 @@
         <?php if ($logo): ?><div id="site-logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a></div><?php endif; ?>
+        <div id="site-logo-2-mobile"><a href="http://leadercenter.org">
+          <img src="/sites/all/themes/nexus/lce_logo.png" alt="Leader Center" />
+        </a></div>
         <h1 id="site-title">
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
         </h1>

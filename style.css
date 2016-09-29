@@ -209,6 +209,14 @@ td{
   max-width:none;
 }
 
+#site-logo-2-mobile {
+  display: none;
+}
+#site-logo-2-mobile img {
+  width:190px;
+  max-width:none;
+}
+
 
 /* Typography
 ================================================== */
@@ -1216,11 +1224,11 @@ div.view-partner-directory td.views-field-image-URL {
   }
 
   #site-logo {
-    padding-top: 0;
+    padding-top: 13px;
+    display: block;
   }
-  #site-logo2 {
-    display:none;
-  }
+  #site-logo-2-mobile { display: block; } 
+  #site-logo2 { display:none; }
   
   select.mnav{
     width: 100%;
