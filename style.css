@@ -194,9 +194,8 @@ td{
 }
 
 #primary td{
-  padding:5px 10px;
-  border-top:1px solid #ddd;
-  border-right:1px solid #ddd;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
 }
 
 #site-logo img {
