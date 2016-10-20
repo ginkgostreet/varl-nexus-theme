@@ -1205,6 +1205,12 @@ form.crm-form-block div.label
   color: #f00;
 }
 
+/* VARL-110 */
+.crm-container.crm-public .select2-container .select2-choice {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
 /* fix spacing causing labels to mis-align */
 #crm-container.crm-public .crm-section {
   margin-bottom: 0.75em;
