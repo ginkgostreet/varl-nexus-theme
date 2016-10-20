@@ -1184,6 +1184,10 @@ form.crm-form-block div.label
   margin-left: 27%;
 }
 
+/* match Drupal */
+.crm-container .crm-marker {
+  color: #f00;
+}
 
 /* fix spacing causing labels to mis-align */
 #crm-container.crm-public .crm-section {
