@@ -226,21 +226,31 @@ h1,h2,h3,h4,h5,h6 {
   clear: both;
 }
 
+/* FJG notes: Not sure why the default line-height needs to
+ * be redeclared for the h-elements but text is smushed if not */
 h1 {
   font-size: 2.286em;
-  line-height: 2em;
+  line-height: 1.6em;
 }
 h2 {
   font-size: 1.857em;
-  line-height: 2em;
+  line-height: 1.6em;
 }
 h3 {
   font-size: 1.429em;
-  line-height: 1.8em;
+  line-height: 1.6em;
 }
-h4 { font-size: 1.286em; }
-h5 { font-size: 1.143em; }
-h6 { font-size: 1em; }
+h4 {
+  font-size: 1.286em;
+  line-height: 1.6em;}
+h5 {
+  font-size: 1.143em;
+  line-height: 1.6em;
+}
+h6 {
+  font-size: 1em;
+  line-height: 1.6;
+}
 
 p {
   margin: 0 0 20px;
