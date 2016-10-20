@@ -1176,6 +1176,15 @@ form.crm-form-block div.label
   padding-top: 6px;
 }
 
+/* Normally the labels and fields use padding to align their tops. Since the label has
+ * a background color in the theme, the effect is push the field down so it is no longer
+ * aligned with the label. The next stanza changes that.
+ */
+#crm-container.crm-public .calc-value,
+#crm-container.crm-public .content {
+  padding-top: 0;
+}
+
 /* made CiviCRM labels wider */
 .crm-container .crm-section .label {
   width: 25%;
