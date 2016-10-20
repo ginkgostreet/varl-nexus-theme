@@ -1227,6 +1227,10 @@ div.view-partner-directory td.views-field-image-URL {
   background-color: white;
 }
 
+input.crm-form-radio, input.crm-form-checkbox {
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
 @media screen and (max-width: 768px) {
   html{
