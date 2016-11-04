@@ -8,7 +8,7 @@ jQuery(window).load(function() {
 		dropShadows: true								// disable drop shadows 
 	});	  
 
-	jQuery('#main-menu > ul').mobileMenu({
+	jQuery('#nice-menu-1').mobileMenu({
 		prependTo:'.mobilenavi'
 	});
 
