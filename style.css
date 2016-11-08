@@ -1231,7 +1231,10 @@ form.crm-form-block div.label
 
 /* Fix bootstrap and jquery-ui conflict breaking the define volunteer needs form */
 /* VARL-92 */
-#crm-volunteer-dialog.ui-dialog-content {
+#crm-container .modal-dialog,
+.crm-container .modal-dialog,
+#crm-volunteer-dialog.ui-dialog-content 
+{
   left: auto;
 }
 
