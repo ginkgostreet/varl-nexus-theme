@@ -1238,6 +1238,11 @@ form.crm-form-block div.label
   left: auto;
 }
 
+/* try and avoid things getting in the way of the ckeditor toolbar layout */
+#crm-container .cke_chrome {
+    margin-top: 0.5em;
+}
+
 /* Hide "advanced" create project settings */
 /* VARL-96 */
 #crm_volunteer_angular_frame form.crm-form-block fieldset.crm-vol-profiles {
