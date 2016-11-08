@@ -25,7 +25,7 @@ ul.nice-menu li {
   /* border: 1px solid #ccc; */
   border-top: 0;
   float: left; /* LTR */
-  z-index: 101; /* plop on top of flex-slider */
+  z-index: 60; /* plop on top of flex-slider */
 }
 
 ul.nice-menu a {
