@@ -1257,6 +1257,9 @@ div.view-partner-directory td.views-field-current-employer {
 div.view-partner-directory td.views-field-image-URL { 
   width: 20%
 }
+div.view-partner-directory img {
+    vertical-align: text-top;
+}
 /* No borders inside rows */
 #primary div.view-partner-directory tbody td {
   border-top: 0px;
