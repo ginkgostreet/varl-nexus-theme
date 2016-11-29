@@ -1249,6 +1249,13 @@ form.crm-form-block div.label
   display: none;
 }
 
+/* VOL Assign UI */
+/* Make "search" icon visible by default */
+#crm-volunteer-dialog div.crm-vol-need-ctrls {
+  display: unset;
+}
+
+
 /* Partner Directory Styling */
 /* Column widths */
 div.view-partner-directory td.views-field-current-employer { 
