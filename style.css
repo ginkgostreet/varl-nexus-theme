@@ -1243,12 +1243,6 @@ form.crm-form-block div.label
     margin-top: 0.5em;
 }
 
-/* Hide "advanced" create project settings */
-/* VARL-96 */
-#crm_volunteer_angular_frame form.crm-form-block fieldset.crm-vol-profiles {
-  display: none;
-}
-
 /* VOL Assign UI */
 /* Make "search" icon visible by default */
 #crm-volunteer-dialog div.crm-vol-need-ctrls {
