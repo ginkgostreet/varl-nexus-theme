@@ -140,21 +140,23 @@ ul.nice-menu-down .menuparent a {
   padding-right: 15px; /* LTR */
 }
 
+/*
 ul.nice-menu-down li.menuparent {
-  background: url("../images/arrow-down.png") right center no-repeat; /* LTR */
+  background: url("../images/arrow-down.png") right center no-repeat; 
 }
 
 ul.nice-menu-down li.menuparent:hover {
-  background: url("../images/arrow-down.png") right center no-repeat; /* LTR */
+  background: url("../images/arrow-down.png") right center no-repeat;
 }
 
 ul.nice-menu-down li li.menuparent {
-  background: url("../images/arrow-right.png") right center no-repeat; /* LTR */
+  background: url("../images/arrow-right.png") right center no-repeat;
 }
 
 ul.nice-menu-down li li.menuparent:hover {
-  background: url("../images/arrow-right.png") right center no-repeat; /* LTR */
+  background: url("../images/arrow-right.png") right center no-repeat;
 }
+*/
 
 /******************************
  Garland-specific CSS
