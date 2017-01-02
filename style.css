@@ -1249,6 +1249,14 @@ form.crm-form-block div.label
   display: unset;
 }
 
+/* VOL Log Hours UI */
+/* integrate help-text:
+.crm-container div.ng-scope.help{
+  color: #1B3664;
+  background-color: white;
+  border-color: #0079c1;
+  font-size: 1.25em;
+}
 
 /* Partner Directory Styling */
 /* Column widths */
