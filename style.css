@@ -1218,6 +1218,11 @@ form.crm-form-block div.label
   color: black;
 }
 
+/* prevent nexus from setting Civi report sectionheader */
+#primary tr.crm-report-sectionHeader th {
+  background-color: unset;
+}
+
 /* match Drupal */
 .crm-container .crm-marker {
   color: #f00;
