@@ -1213,6 +1213,11 @@ form.crm-form-block div.label
   margin-left: 27%;
 }
 
+/* fix white-on-white labels on Volunteer report viewed in nexus theme */
+.crm-container .report-contents .label {
+  color: black;
+}
+
 /* match Drupal */
 .crm-container .crm-marker {
   color: #f00;
@@ -1250,7 +1255,7 @@ form.crm-form-block div.label
 }
 
 /* VOL Log Hours UI */
-/* integrate help-text:
+/* integrate help-text: */
 .crm-container div.ng-scope.help{
   color: #1B3664;
   background-color: white;
