@@ -3,6 +3,7 @@ description = Nexus Theme is a premium Drupal 7 theme. Developed by <a href="htt
 core = 7.x
 engine = phptemplate
 stylesheets[all][] = css/flexslider.css
+stylesheets[all][] = css/flexslider-custom.css
 stylesheets[all][] = style.css
 scripts[] = js/bootstrap.min.js
 scripts[] = js/superfish.js

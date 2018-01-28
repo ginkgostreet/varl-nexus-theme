@@ -485,31 +485,6 @@ img.grayscale {
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
-  
-.flex-caption{
-  width: 800px;
-  position: absolute;
-  top:28%;
-  left: 50%;
-  margin-left: -400px;
-  text-align: center;
-  z-index: 35;
-  color: #fff;
-} 
-  
-.flex-caption h2{
-  text-transform: uppercase;
-  font-size: 36px;
-  color: #fff;
-}
-
-.flex-caption h2 a:link, .flex-caption h2 a:visited{
-  color: #fff;
-}
-
-.flex-caption p{
-  font-size: 16px;
-}
 
 a.frmore{
   background: rgba(255,255,255,0.2);
@@ -1320,10 +1295,6 @@ input.crm-form-radio, input.crm-form-checkbox {
 
   #main-menu{
     display:none;
-  }
-    
-  .flex-caption{
-    display: none;
   }
 
 }

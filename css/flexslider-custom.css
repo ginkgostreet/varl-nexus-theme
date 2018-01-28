@@ -1,0 +1,53 @@
+/* neutralize Views's penchant for bottom margins */
+#header-block .block-views {
+  margin-bottom: 0;
+}
+
+/* prevent image-stretching the theme seems to want to do */
+.flexslider .slides img {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+/* link the whole slide */
+.flexslider .flex-active-slide .slide-link {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* ensure placement over the 35-z-indexed overlay and, hence, clickability */
+  z-index: 40;
+}
+
+.flex-caption {
+  width: 100%;
+  position: absolute;
+  top: 28%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  z-index: 35;
+  color: #fff;
+}
+
+.flex-caption h2 {
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #fff;
+}
+
+.flex-caption h2 a:link, .flex-caption h2 a:visited {
+  color: #fff;
+}
+
+.flex-caption p {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-caption h2 {
+    font-size: 24px;
+  }
+}
