@@ -30,6 +30,7 @@
   text-align: center;
   z-index: 35;
   color: #fff;
+  text-shadow: 1px 1px black;
 }
 
 .flex-caption h2 {
