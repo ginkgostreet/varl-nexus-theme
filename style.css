@@ -464,7 +464,7 @@ h1#site-title a:link, h1#site-title a:visited{
 
 /* Slider */
 
-#slidebox{
+#header-block {
   max-height: 550px;
   position: relative;
   background: #000;
@@ -542,7 +542,7 @@ a.frmore{
   font-weight: bold;
 }
 
-#header-block, #footer-block {
+#footer-block {
   padding: 20px 0 0;
 }
 

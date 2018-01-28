@@ -105,6 +105,11 @@
     </div>
   </header>
 
+  <?php if ($page['header']) : ?>
+    <div id="header-block">
+      <?php print render($page['header']); ?>
+    </div>
+  <?php endif; ?>
 
   <?php if ($page['preface_first'] || $page['preface_middle'] || $page['preface_last']) : ?>
     <?php $preface_col = ( 12 / ( (bool) $page['preface_first'] + (bool) $page['preface_middle'] + (bool) $page['preface_last'] ) ); ?>
@@ -120,18 +125,6 @@
           <?php if($page['preface_last']): ?><div class="preface-block col-sm-<?php print $preface_col; ?>">
             <?php print render ($page['preface_last']); ?>
           </div><?php endif; ?>
-        </div>
-      </div>
-    </div>
-  <?php endif; ?>
-
-  <?php if($page['header']) : ?>
-    <div id="header-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <?php print render($page['header']); ?>
-          </div>
         </div>
       </div>
     </div>
