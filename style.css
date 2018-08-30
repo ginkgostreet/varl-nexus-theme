@@ -532,12 +532,20 @@ a.frmore{
   color: #aaa;
 }
 
-.footer-block .block > h2{
+.footer-block .block > h1, .footer-block .block > h2, .footer-block .block > h3, .footer-block .block > h4, .footer-block .block > h5, .footer-block .block > h6{
   font-size: 16px;
   margin-bottom: 10px;
   padding: 10px 0px;
   color:#fff;
   text-transform: uppercase;
+}
+
+.footer-block .block a:link, .footer-block .block a:visited{
+  color:#bbb;
+}
+
+.footer-block .block a:hover, .footer-block .block a:active{
+  color:#fff;
 }
 
 /* Footer */
