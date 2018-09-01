@@ -60,6 +60,10 @@ function nexus_preprocess_page(&$vars) {
   else {
     $vars['secondary_menu'] = FALSE;
   }
+  
+  // this needs to be assigned to the page rather than rendered directly in the
+  // template in order for form validation errors to be rendered
+  $vars['user_login_form'] = _nexus_build_user_login_form();
 }
 
 /**
@@ -119,4 +123,21 @@ function nexus_preprocess_html(&$vars) {
       'group' => CSS_SYSTEM,
       'preprocess' => FALSE
     ));
+}
+
+/**
+ * Builds a user login form if appropriate.
+ *
+ * @return string
+ *   HTML or empty string
+ */
+function _nexus_build_user_login_form() {
+  if (!user_is_anonymous()) {
+    return '';
+  }
+
+  // note: $loginBlock will be an empty string if Drupal doesn't want to display
+  // the block (e.g., on any /user/* page)
+  $loginBlock = module_invoke('user', 'block_view', 'login');
+  return drupal_render($loginBlock['content']);
 }

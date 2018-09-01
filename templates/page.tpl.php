@@ -65,6 +65,13 @@
  */
 ?>
 <div id="page">
+<?php if ($user_login_form): ?>
+  <div id="header-user-login" class="region">
+    <div class="container varl-compact-form">
+      <?php print $user_login_form ?>
+    </div>
+  </div>
+<?php endif; ?>
   <header id="masthead" class="site-header container" role="banner">
     <div class="row">
       <div id="logo" class="site-branding col-sm-3">
