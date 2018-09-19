@@ -1098,7 +1098,7 @@ ol.search-results {
 	background:none;
 }
 
-.links li a {
+.links li a, .more-link a {
 	background-color:#E7E5E3;
 	color:#100100;
 	padding:4px 5px;
@@ -1107,7 +1107,7 @@ ol.search-results {
 	font-weight:400;
 }
 
-.links li a:hover {
+.links li a:hover, .more-link a:hover {
 	background-color:#D7D5D3;
 	color:#100101;
 }
