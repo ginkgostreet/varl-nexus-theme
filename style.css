@@ -1498,6 +1498,12 @@ ul.inline,ul.links.inline {
 /*-------------------------------------------*
 /* CiviCRM
 /*-------------------------------------------*/
+
+/* Hide non-functional Additional Volunteer form-input: */
+#crm-container fieldset.crm-volunteer-additional-volunteers-section {
+	display: none;
+}
+
 #crm-container.crm-public .label,#crm-profile-block fieldset .label,form.crm-form-block div.label {
 	white-space:normal;
 	line-height:1.2em;
